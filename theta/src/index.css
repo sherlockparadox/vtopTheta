@@ -14,3 +14,24 @@ body {
     height: 150px;
     background-color: rgb(0, 188, 212);
 }
+
+.menu{
+    height: 70px;
+    width: 70%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.right-box{
+    position: absolute;
+    float: right;
+    width: 30%;
+    height: 100%;
+    right: 40px;
+    background-color: aqua;
+}
+
+.App{
+    float: left;
+    width: 70%;
+}

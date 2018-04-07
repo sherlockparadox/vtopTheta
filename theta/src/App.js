@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
@@ -50,12 +49,13 @@ class App extends Component {
                 
                 <div class="Premium">
                     </div>
-            
-                <AppBar
-                title="Title"
-                iconClassNameRight="muidocs-icon-navigation-expand-more"
-                />
                 
+                <div class="menu">
+                    </div>
+                
+                <div class="right-box">
+                    </div>
+            
                 <div className="App">
                     <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
