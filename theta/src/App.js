@@ -47,6 +47,10 @@ class App extends Component {
         <MuiThemeProvider>
             
             <div class="Wrapper01">
+                
+                <div class="Premium">
+                    </div>
+            
                 <AppBar
                 title="Title"
                 iconClassNameRight="muidocs-icon-navigation-expand-more"
