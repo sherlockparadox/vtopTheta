@@ -6,7 +6,8 @@ import FlatButton from 'material-ui/FlatButton';
 import Toggle from 'material-ui/Toggle';
 import logo from './logo.svg';
 import './App.css';
-import tab_nav from './tab_nav'
+import TabsExampleSwipeable from './tab_nav'
+import TabsExampleControlled from './tab_example'
 
 
 
@@ -50,7 +51,7 @@ class App extends Component {
                     </div>
                 
                 <div class="menu">
-                      <tab_nav />
+                      <TabsExampleSwipeable />
                 </div>
                 
                 <div class="right-box">

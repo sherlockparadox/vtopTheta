@@ -14,7 +14,7 @@ const styles = {
   },
 };
 
-export default class tab_nav extends React.Component {
+export default class TabsExampleSwipeable extends React.Component {
 
   constructor(props) {
     super(props);
