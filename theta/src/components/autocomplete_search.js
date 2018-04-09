@@ -36,7 +36,7 @@ export default class AutoCompleteExampleMenuProps extends Component {
           dataSource={colors}
           menuProps={menuProps}
         />
-        <i className="fa fa-search"></i>
+        <i className="fa fa-search" style={{color: 'white'}}></i>
       </div>
     );
   }
