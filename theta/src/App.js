@@ -7,7 +7,6 @@ import Toggle from 'material-ui/Toggle';
 import logo from './logo.svg';
 import './App.css';
 import TabsExampleSwipeable from './tab_nav'
-import TabsExampleControlled from './tab_example'
 
 
 
