@@ -1,6 +1,8 @@
 import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import {Tabs, Tab} from 'material-ui/Tabs';
+import GridListExampleComplex from './grid_main'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 const styles = {
   headline: {
@@ -32,6 +34,7 @@ export default class TabsExampleSwipeable extends React.Component {
   render() {
     return (
       <div>
+      <MuiThemeProvider>
         <Tabs
           onChange={this.handleChange}
           value={this.state.slideIndex}
@@ -45,8 +48,7 @@ export default class TabsExampleSwipeable extends React.Component {
           onChangeIndex={this.handleChange}
         >
           <div>
-            <h2 style={styles.headline}>Tabs with slide effect</h2>
-            Swipe to see the next slide.<br />
+          <GridListExampleComplex />
           </div>
           <div style={styles.slide}>
             slide n°2
@@ -55,6 +57,7 @@ export default class TabsExampleSwipeable extends React.Component {
             slide n°3
           </div>
         </SwipeableViews>
+        </MuiThemeProvider>
       </div>
     );
   }
