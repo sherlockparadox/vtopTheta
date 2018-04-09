@@ -18,13 +18,19 @@ const menuProps = {
   disableAutoFocus: true,
 };
 
+const styles = {
+    position: 'absolute',
+    padding: 50,
+    marginLeft: 300,
+  };
+
 /**
  * Provide props to be passed into the Menu component.
  */
 export default class AutoCompleteExampleMenuProps extends Component {
   render() {
     return (
-      <div>
+      <div style={styles}>
         <AutoComplete
           hintText="Type anything"
           dataSource={colors}
