@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
@@ -16,21 +15,6 @@ const style = {
   margin: 12,
 };
  
-/*//TABS
-const styles = {
-  headline: {
-    fontSize: 24,
-    paddingTop: 16,
-    marginBottom: 12,
-    fontWeight: 400,
-  },
-};*/
-
-function handleActive(tab) {
-  alert(`A tab with this route property ${tab.props['data-route']} was activated.`);
-}
-
-
 class App extends Component {
     //Card
     constructor(props) {
