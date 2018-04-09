@@ -19,9 +19,6 @@ const menuProps = {
 };
 
 const styles = {
-    position: 'absolute',
-    padding: 50,
-    marginLeft: 300,
   };
 
 /**
@@ -32,12 +29,13 @@ export default class AutoCompleteExampleMenuProps extends Component {
     return (
       <div style={styles}>
         <AutoComplete
-          hintText="Type anything"
+          hintText="Search"
           dataSource={colors}
           menuProps={menuProps}
+        fullWidth={true}
+        textFieldStyle={{fontSize: 28}}
         />
-        <i className="fa fa-search" style={{color: 'white'}}></i>
-      </div>
+        </div>
     );
   }
 }
