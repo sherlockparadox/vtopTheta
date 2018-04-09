@@ -1,18 +1,22 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: ghostwhite;
+    
+    
 }
 
 .Wrapper01{
     margin-top: 70px;
     margin-left: 40px;
     margin-right: 40px;
+    background-color: blue;
 }
 
 .Premium{
     height: 150px;
-    background-color: greenyellow;
+    background-color: #3F9AE1;
 }
 
 .menu{
@@ -27,7 +31,7 @@ body {
     width: 30%;
     height: auto;
     right: 40px;
-    background-color: aqua;
+    background-color: skyblue;
 }
 
 .App{
