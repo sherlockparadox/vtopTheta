@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import AutoComplete from 'material-ui/AutoComplete';
+import 'font-awesome/css/font-awesome.min.css';
 
 const colors = [
   'Red',
@@ -29,6 +30,7 @@ export default class AutoCompleteExampleMenuProps extends Component {
           dataSource={colors}
           menuProps={menuProps}
         />
+        <i className="fa fa-search"></i>
       </div>
     );
   }
