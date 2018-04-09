@@ -3,6 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import './App.css';
 import TabsExampleSwipeable from './components/tab_nav'
 import VerticalNonLinear from './components/stepper_timetable'
+import AutoCompleteExampleMenuProps from './components/autocomplete_search'
  
 class App extends Component {
     //Card
@@ -36,15 +37,16 @@ class App extends Component {
             <div class="Wrapper01">
                 
                 <div class="Premium">
-                    </div>
+                    <AutoCompleteExampleMenuProps />
+                </div>
                 
                 <div class="menu">
-                      <TabsExampleSwipeable />
+                    <TabsExampleSwipeable />
                 </div>
                 
                 <div class="right-box">
-                <VerticalNonLinear />
-                    </div>
+                    <VerticalNonLinear />
+                </div>
             
                 
             </div>
