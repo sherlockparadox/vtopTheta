@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import './App.css';
-import TabsExampleSwipeable from './tab_nav'
+import TabsExampleSwipeable from './components/tab_nav'
+import VerticalNonLinear from './components/stepper_timetable'
  
 class App extends Component {
     //Card
@@ -42,6 +43,7 @@ class App extends Component {
                 </div>
                 
                 <div class="right-box">
+                <VerticalNonLinear />
                     </div>
             
                 
