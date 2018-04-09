@@ -1,4 +1,6 @@
+import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
+import {Tabs, Tab} from 'material-ui/Tabs';
 
 const styles = {
   headline: {

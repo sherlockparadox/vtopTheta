@@ -7,8 +7,7 @@ import FlatButton from 'material-ui/FlatButton';
 import Toggle from 'material-ui/Toggle';
 import logo from './logo.svg';
 import './App.css';
-import {Tabs, Tab} from 'material-ui/Tabs';
-import Slider from 'material-ui/Slider';
+import tab_nav from './tab_nav'
 
 
 
@@ -17,7 +16,7 @@ const style = {
   margin: 12,
 };
  
-//TABS
+/*//TABS
 const styles = {
   headline: {
     fontSize: 24,
@@ -25,7 +24,7 @@ const styles = {
     marginBottom: 12,
     fontWeight: 400,
   },
-};
+};*/
 
 function handleActive(tab) {
   alert(`A tab with this route property ${tab.props['data-route']} was activated.`);
@@ -67,41 +66,8 @@ class App extends Component {
                     </div>
                 
                 <div class="menu">
-                      <Tabs>
-                        <Tab label="Item One" >
-                         <div>
-                            <h2 style={styles.headline}>Tab One</h2>
-                            <p>
-                            This is an example tab.
-                        </p>
-                            <p>
-                                You can put any sort of HTML or react component in here. It even keeps the component state!
-                        </p>
-                            <Slider name="slider0" defaultValue={0.5} />
-                    </div>
-                </Tab>
-                <Tab label="Item Two" >
-                    <div>
-                        <h2 style={styles.headline}>Tab Two</h2>
-                        <p>
-                        This is another example tab.
-                    </p>
+                      <tab_nav />
                 </div>
-            </Tab>
-                <Tab
-                    label="onActive"
-                    data-route="/home"
-                    onActive={handleActive}
-                >
-                    <div>
-                        <h2 style={styles.headline}>Tab Three</h2>
-                        <p>
-                        This is a third example tab.
-                    </p>
-                </div>
-            </Tab>
-            </Tabs>
-        </div>
                 
                 <div class="right-box">
                     </div>
