@@ -28,12 +28,15 @@ export default class AutoCompleteExampleMenuProps extends Component {
   render() {
     return (
       <div style={styles}>
+        <i className="fa fa-search" style={{color: 'white'}}></i>
         <AutoComplete
           hintText="Search"
           dataSource={colors}
           menuProps={menuProps}
-        fullWidth={true}
-        textFieldStyle={{fontSize: 28}}
+          fullWidth={true}
+          textFieldStyle={{fontSize: 28, multiLine: true,}}
+          hintStyle={{color: 'white', paddingLeft: '40%',}}
+          inputStyle={{color: 'white', textAlign:"center",}}
         />
         </div>
     );

@@ -37,7 +37,6 @@ class App extends Component {
             <div class="Wrapper01">
                 
                 <div class="Premium">
-            <i className="fa fa-search" style={{color: 'white'}}></i>
                     <div class="search_size">
                         <AutoCompleteExampleMenuProps />
                     </div> 
